@@ -94,6 +94,7 @@ func countDays(date1 []string, date2 []string) (daysCount int) {
 //driver function
 func main() {
 
+	//Get the input for Date 1
 	fmt.Printf("Enter a First Date: ")
 	reader := bufio.NewReader(os.Stdin)
 	input1, _ := reader.ReadString('\n')
@@ -108,6 +109,7 @@ func main() {
 		return
 	}
 
+	//Get the input for Date 2
 	fmt.Println("Enter a Second Date")
 	input2, _ := reader.ReadString('\n')
 	input2 = strings.TrimSpace(input2)
@@ -121,6 +123,7 @@ func main() {
 		return
 	}
 
+	//Print the Output
 	fmt.Println("The number of days between", input1, "and", input2, "is", countDays(date1, date2))
 
 }
