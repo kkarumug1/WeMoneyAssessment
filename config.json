@@ -1,0 +1,9 @@
+{
+    "inputdate1_message":"Enter the First Date in the following format dd/mm/yyyy: ",
+    "inputdate2_message":"Enter the Second Date in the following format dd/mm/yyyy: ",
+    "minimumYear":1900,
+    "maximumYear":2999,
+    "input_read_error":"error while reading input",
+    "invalid_date_format_message":"please enter the date in the following format dd/mm/yyyy",
+    "invalid_date_message":"invalid date. type a valid date"
+}
